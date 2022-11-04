@@ -24,13 +24,13 @@ QUICK GUIDE
 The usage of this quick script is very simple.
 
  How does it work - you can run it via
-        * poetry, ex. 
+        poetry, ex. 
         
         - 'poetry run python run.py [database name] [number of people/values needed]'
   or install it via requirements.txt by running 
-        * 'pip install requirements.txt" 
+        - 'pip install requirements.txt" 
   and then
-        * 'python names.py [database name] [number of people/values needed]'
+        - 'python names.py [database name] [number of people/values needed]'
 
 It will create a mockup database for you with full name, country, city, postal code, address, region and telephone numbers.
 Feel free to modify it however you want, but please, refer to documentation from Mimesis module.
