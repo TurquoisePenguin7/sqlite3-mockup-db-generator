@@ -15,6 +15,7 @@ def get_names(db_name = sys.argv[1], number_of_people = sys.argv[2]) -> None:
         cur.execute("CREATE TABLE data(name, country, city, postal_code, address, region, telephone_number)")
     except sqlite3.OperationalError:
         print('Database exists, skipping database creation...')
+        print('Appending values to the existing database.)
 
     try:
         for name in tqdm(range(int(number_of_people))): 
