@@ -35,7 +35,7 @@ The usage of this quick script is very simple.
         poetry, ex. 
         
         poetry run python run.py [database name] [number of people/values needed]
-  or install it python with virtual environment.
+  or python with virtual environment.
   
         python names.py [database name] [number of people/values needed]
 
