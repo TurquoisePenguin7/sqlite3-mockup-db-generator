@@ -34,7 +34,7 @@ The usage of this quick script is very simple.
  How does it work - you can run it via
         poetry, ex. 
         
-        poetry run python run.py [database name] [number of people/values needed]
+        poetry run python names.py [database name] [number of people/values needed]
   or python with virtual environment.
   
         python names.py [database name] [number of people/values needed]
