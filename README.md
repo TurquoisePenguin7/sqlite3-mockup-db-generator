@@ -20,11 +20,11 @@ INSTALLATION
 Installation is simple with poetry toml file or via requirements.txt, whichever you prefer most
 Poetry ex.:
 
- 'poetry install'
+    'poetry install'
 
 requirements.txt:
 
- 'pip install requirements.txt'
+    'pip install requirements.txt'
  
  
 QUICK GUIDE
