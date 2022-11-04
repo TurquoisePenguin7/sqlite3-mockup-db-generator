@@ -2,7 +2,7 @@
 name = "MockupDataGenerator"
 version = "0.1.0"
 description = "a quick random mockup sqlite database generator"
-authors = ["Your Name <you@example.com>"]
+authors = ["Waldy <https://github.com/TurquoisePenguin7>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
