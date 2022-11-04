@@ -18,7 +18,15 @@ REQUIREMENTS
 INSTALLATION
 ------------
 Installation is simple with poetry toml file or via requirements.txt, whichever you prefer most
+Poetry ex.:
 
+ 'poetry install'
+
+requirements.txt:
+
+ 'pip install requirements.txt'
+ 
+ 
 QUICK GUIDE
 -------------
 The usage of this quick script is very simple.
@@ -27,7 +35,7 @@ The usage of this quick script is very simple.
         poetry, ex. 
         
         'poetry run python run.py [database name] [number of people/values needed]'
-  or install it via requirements.txt.
+  or install it python with virtual environment.
   
         'python names.py [database name] [number of people/values needed]'
 
