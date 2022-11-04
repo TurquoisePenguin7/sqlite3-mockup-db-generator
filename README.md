@@ -3,6 +3,7 @@ CONTENTS OF THIS FILE
 
  * Introduction
  * Requirements
+ * Installation
  * Quick guide
 
 INTRODUCTION
