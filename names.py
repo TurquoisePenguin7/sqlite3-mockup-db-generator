@@ -1,5 +1,6 @@
 from mimesis import Person    # type: ignore
 from mimesis import Address # type: ignore
+from tqdm import tqdm
 import sys
 import sqlite3
 
@@ -16,7 +17,7 @@ def get_names(db_name = sys.argv[1], number_of_people = sys.argv[2]) -> None:
         print('Database exists, skipping database creation...')
 
     try:
-        for name in range(int(number_of_people)): 
+        for name in tqdm(range(int(number_of_people))): 
             name = Person()
             address = Address()
             query = """INSERT INTO data(name, country, city, postal_code, address, region, telephone_number) VALUES(?, ?, ?, ?, ?, ?, ?)"""

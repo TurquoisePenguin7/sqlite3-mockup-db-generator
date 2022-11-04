@@ -2,12 +2,13 @@
 name = "MockupDataGenerator"
 version = "0.1.0"
 description = "a quick random mockup sqlite database generator"
-authors = ["Waldy <https://github.com/TurquoisePenguin7>"]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 mimesis = "^6.1.1"
+tqdm = "^4.64.1"
 
 [build-system]
 requires = ["poetry-core"]
