@@ -27,7 +27,8 @@ The usage of this quick script is very simple.
         * poetry, ex. 
         
         - 'poetry run python run.py [database name] [number of people/values needed]'
-  or install it via requirements.txt by running 'run pip install requirements.txt" 
+  or install it via requirements.txt by running 
+        * 'pip install requirements.txt" 
   and then
         * 'python names.py [database name] [number of people/values needed]'
 
